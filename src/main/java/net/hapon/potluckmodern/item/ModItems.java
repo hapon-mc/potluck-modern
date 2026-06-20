@@ -1,6 +1,6 @@
-package net.hapon.potluckmodernmod.item;
+package net.hapon.potluckmodern.item;
 
-import net.hapon.potluckmodernmod.PotluckModernMod;
+import net.hapon.potluckmodern.PotluckModern;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -9,7 +9,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, PotluckModernMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, PotluckModern.MOD_ID);
 
     public static final RegistryObject<Item> COOKING_RECIPE = ITEMS.register("cooking_recipe",
             () -> new Item(new Item.Properties()));
